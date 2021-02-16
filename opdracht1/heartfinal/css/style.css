@@ -1,0 +1,261 @@
+body {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: 'Montserrat';
+  top: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding-bottom: 1em;
+  z-index: 1;
+  height: 100px;
+  overflow: hidden;
+  transition-duration: 0.5s;
+}
+
+.margin {
+  height: 350px;
+  box-shadow: 2px 2px 6px grey;
+}
+
+.rowimg {
+  height: 11em;
+  box-shadow: 2px 2px 6px grey;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.total-favorites {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  margin-right: 1em;
+}
+
+.faverow {
+  width: 100%;
+  margin-left: 3em;
+  color: rgb(255, 94, 0);
+
+}
+
+.favoritesheart {
+  background-image: url(../img/liked.png);
+  width: 2.3em;
+  height: 2.1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  margin-right: 0.5em;
+}
+
+p:first-of-type {
+  color: black;
+}
+
+.logo {
+  height: 4em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 85vw;
+  margin-bottom: 1em;
+
+
+}
+
+.search-img {
+  height: 1.4em;
+  margin-right: 0.5em;
+}
+
+.searchbar {
+  color: black;
+  font-size: 1em;
+  border: 0;
+  outline: 0;
+  border: 1px solid rgb(255, 94, 0);
+  background: transparent;
+  width: 100vw;
+  align-self: center;
+  border-radius: 25px;
+  padding: 0.5em;
+  font-family: 'Montserrat';
+  height: 1.7em;
+}
+
+::placeholder {
+  color: black;
+  font-family: 'Montserrat';
+  margin-right: 2em;
+}
+
+h1 {
+  margin-left: 0.7em;
+  color: rgb(255, 94, 0);
+  align-self: center;
+  margin-top: 1em;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h2.subkopje-scroll {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 94, 0);
+  font-size: 1.2em;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-bottom: 1px solid rgb(255, 94, 0);
+}
+
+h2.subkopje-scroll:first-of-type {
+  margin-top: 1em;
+}
+
+
+/* wrapper max width -- scollable*/
+div.outer-wrapper {
+  display: flex;
+  align-self: flex-end;
+  max-width: 100%;
+  overflow-x: scroll;
+
+
+}
+
+/* wrapper voor scrollable fotos met text*/
+div.scroll-wrapper {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+figcaption {
+  color: black;
+  margin-top: 0.60em;
+  text-align: center;
+}
+
+button:focus,
+button:active:focus,
+button.active:focus,
+button:focus,
+button:active.focus,
+button:active.focus {
+  outline: none !important;
+}
+
+
+
+
+
+.heart {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2.1em;
+  height: 2em;
+  border: none;
+  background-color: transparent;
+  margin-left: 9em;
+  margin-top: 1em;
+  transition-duration: 0.5s;
+  z-index: 0;
+}
+
+
+.heartGrey {
+  background-image: url(../img/like.png);
+  transform: rotate(-360deg);
+}
+
+
+
+.heartRed {
+  background-image: url(../img/liked.png);
+  transform: rotate(360deg);
+
+}
+
+.heart-wrapper {
+  width: 10em;
+  height: 15em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 6px grey;
+
+}
+
+
+.m1 {
+  background-image: url(../img/bonbini.jpg);
+}
+
+.m2 {
+  background-image: url(../img/dna.jpg);
+}
+
+.m3 {
+  background-image: url(../img/inthemood.jpg);
+}
+
+
+.m4 {
+  background-image: url(../img/breach.jpeg);
+}
+
+.m5 {
+  background-image: url(../img/ava.jpg);
+}
+
+.m6 {
+  background-image: url(../img/wonderwoman.jpg);
+}
+
+.m7 {
+  background-image: url(../img/after.jpg);
+}
+
+.m8 {
+  background-image: url(../img/believe.jpeg);
+}
+
+.m9 {
+  background-image: url(../img/grey.jpg);
+}
