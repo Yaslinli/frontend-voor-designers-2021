@@ -9,7 +9,8 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 Beschrijf hier je eigen project.
 Ik heb de case films favorieten gekozen. Op de pagina zijn verschillende categorieen films te zien die allemaal een hart hebben op de cover. De gebruiker kan de film in favorieten zetten door op de het hartje te klikken.
 
-En voeg een link naar je demo toe.
+versie 1: https://yaslinli.github.io/frontend-voor-designers-2021/opdracht1/heart/
+Versie 2(final): https://yaslinli.github.io/frontend-voor-designers-2021/opdracht1/heartfinal/
 
 
 ## interface
