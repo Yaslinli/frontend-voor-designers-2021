@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel {
+    overflow: hidden;
+    max-width: 50em;
+    position: relative;
+    align-self: center;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+    display: none;
+}
+
+.carousel .carousel__item img {
+    width: 100%;
+    max-width: 50em;
+    height: auto;
+}
+
+.carousel .carousel__item--visible {
+    display: block;
+    animation: fade 0.7s;
+}
+.carousel .carousel__actions{
+display: flex;
+justify-content: space-between;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 100%;
+}
+
+.carousel .carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
+
+}
+.carousel .carousel__actions button:focus{
+    outline: none;
+}
+.carousel .carousel__actions button#carousel__button--prev{
+    margin-left: 1em;
+}
+.carousel .carousel__actions button#carousel__button--next{
+    margin-right: 1em;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+        transform: opacity linear;
+    }
+}
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	background-color: white;
+
+}
+
+
+
+
+
+.logo{
+    width: 4em;
+    margin: 0.5em;
+}
+main { 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+}
+
+h2{
+    font-size: 0.5em;
+}
+
+.front_one {
+	width: 300px;
+
+}
+
+#counter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+font-size: 2em;
+}
+
+.gallerybutton{
+	height: 3em;
+	width: 8em;
+	border-radius: 5em;
+	background-color: rgb(255, 200, 219);
+	border: none;
+    transition-duration: 0.3s;
+    font-size: 1em;
+
+	
+}
+
+.gallerybutton:hover{
+	transform: scale(1.1);
+	transition: ease-in;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+.gallerybutton:focus{
+outline: none;
+}
+
+
+.pol{
+	width: 20%;
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	
+
+}
+
+.p1{
+right: 3%;
+width: 17vw;
+
+
+
+}
+.pol:hover{
+	transform: translateY(-1em);
+	transition: ease-in;
+	transition-duration: 0.2s;
+}
+.pol{
+	transition-duration: 2s;
+}
+
+.p2{
+	right: 18%;
+    width: 16vw;
+    z-index: 5;
+
+}
+
+.p3{
+	right: 30%;
+	width: 15vw;
+}
+.p4{
+	right: 19%;
+	width: 18vw;
+}
+.p5{
+	left: 22%;
+	width: 16vw;
+}
+.p6{
+	left: 11%;
+    width: 12vw;
+    z-index: 5;
+}
+.p7{
+	left: 3%;
+	width: 17vw;
+}
+.p8{
+	left: 16%;
+	width: 20vw;
+	z-index: 1;
+}
+.sun-and-snow{
+	width: 100%;
+
+}
