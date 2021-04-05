@@ -5,7 +5,7 @@ Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data
 Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
-# Project titel
+# Gibli list 
 Ik heb met het gebruik van de studio Gibli Api een lijst van 10 films gemaakt waar de gebruiker doorheen kan scrollen. 
 
 En voeg een link naar je demo toe.
